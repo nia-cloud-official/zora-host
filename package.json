@@ -1,22 +1,30 @@
 {
   "name": "render-php-host",
+  "dependencies": {
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "adm-zip": "^0.5.10",
+    "@octokit/rest": "^19.0.7",
+    "axios": "^1.6.2",
+    "simple-git": "^3.19.1",
+    "dotenv": "^16.3.1"
+  },
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nia-cloud-official/zora-host.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
-  "dependencies": {
-    "axios": "^1.8.3",
-    "bcryptjs": "^3.0.2",
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2",
-    "jsonwebtoken": "^9.0.2",
-    "multer": "^1.4.5-lts.1",
-    "pg": "^8.14.0"
-  }
+  "bugs": {
+    "url": "https://github.com/nia-cloud-official/zora-host/issues"
+  },
+  "homepage": "https://github.com/nia-cloud-official/zora-host#readme"
 }
